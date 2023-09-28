@@ -1,0 +1,72 @@
+/* styles.css */
+body {
+    background-color: rgba(24, 124, 155, 0.377);
+}
+
+.center {
+    text-align: center;
+    overflow: hidden;
+}
+
+header h1 {
+    color: darkblue;
+    text-align: center;
+    font-style: italic;
+    font-size: 500%;
+}
+
+main img.center {
+    float: right;
+    display: block;
+    margin-right: 170px;
+}
+
+section p strong{
+    color: darkblue;
+    font-style: italic;
+    font-size: 250%;
+    margin-left: 300px;
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: circle;
+    padding: 0;
+    margin-left: 100px;
+}
+
+section ul li {
+    margin-bottom: 5px;
+    font-size: 200%;
+    margin-left: 150px;
+}
+
+marquee {
+    font-size: 30px;
+}
+
+.border{
+    border: 10px solid #30236b;
+    padding: auto;
+    width: auto;
+}
+
+video{
+    float: right;
+    margin-right: 150px;
+    margin-top: auto;
+}
+
+section ul a{
+    margin-left: 120px;
+}
+
+section p1{
+    margin-left: 170px;
+    font-size: x-large;
+}
+
+.underline{
+    text-decoration: underline;
+    text-align: center;
+}
