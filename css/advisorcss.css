@@ -1,0 +1,55 @@
+/* stylesadvisor.css */
+body {
+    background-color: rgba(24, 124, 155, 0.377);
+}
+
+.center {
+    text-align: center;
+    overflow: hidden;
+}
+
+header h1 {
+    color: darkblue;
+    text-align: center;
+    font-style: italic;
+    font-size: 500%;
+}
+
+
+section p strong{
+    color: darkblue;
+    font-style: italic;
+    font-size: 250%;
+    text-decoration: underline;
+}
+
+.border{
+    border: 10px solid #30236b;
+    padding: auto;
+    width: auto;
+}
+
+.underline{
+    text-decoration: underline;
+    text-align: center;
+}
+
+.fontsize{
+    font-size: 200%;
+}
+
+section a{
+    font-size: 200%;
+    margin-left: 20px;
+}
+
+.right{
+    margin-left: 180px;
+}
+
+.imgcenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+  }
