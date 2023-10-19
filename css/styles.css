@@ -70,3 +70,23 @@ section p1{
     text-decoration: underline;
     text-align: center;
 }
+
+aside ul {
+    position: relative;
+}
+
+aside ul li{
+    position: relative;
+    list-style: none;
+    width: 150px;
+    padding: 15px;
+    background: #85809c;
+    z-index: calc(1*var(--i));
+    right: 70px;
+}
+
+.img {
+    text-align: center;
+    overflow: hidden;
+    float: right;
+}
