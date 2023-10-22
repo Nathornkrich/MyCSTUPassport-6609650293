@@ -1,92 +1,78 @@
 /* styles.css */
-body {
-    background-color: rgba(24, 124, 155, 0.377);
-}
-
-.center {
-    text-align: center;
-    overflow: hidden;
-}
-
-header h1 {
-    color: darkblue;
-    text-align: center;
-    font-style: italic;
-    font-size: 500%;
-}
-
-main img.center {
-    float: right;
-    display: block;
-    margin-right: 170px;
-}
-
-section p strong{
-    color: darkblue;
-    font-style: italic;
-    font-size: 250%;
-    margin-left: 300px;
-    text-decoration: underline;
-}
-
-ul {
-    list-style-type: circle;
-    padding: 0;
-    margin-left: 100px;
-}
-
-section ul li {
-    margin-bottom: 5px;
-    font-size: 200%;
-    margin-left: 150px;
-}
-
-marquee {
-    font-size: 30px;
-}
-
-.border{
-    border: 10px solid #30236b;
-    padding: auto;
-    width: auto;
-}
-
-video{
-    float: right;
-    margin-right: 150px;
-    margin-top: auto;
-}
-
-section ul a{
-    margin-left: 120px;
-}
-
-section p1{
-    margin-left: 170px;
-    font-size: x-large;
-}
-
-.underline{
+* {
+    box-sizing: border-box;
+  }
+.header{
     text-decoration: underline;
     text-align: center;
+    border: 5px solid red;
+    padding: 15px;
+    background-color: #6521e4;
 }
-
-aside ul {
+div main ul {
     position: relative;
 }
 
-aside ul li{
+div main ul li{
     position: relative;
     list-style: none;
-    width: 150px;
+    width: 100px;
     padding: 15px;
-    background: #85809c;
+    background: #b7dee0;
     z-index: calc(1*var(--i));
     right: 70px;
+    text-align: center;
+}
+div main ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    display: block;
+    background: #f44335;
+    margin: auto;
+    transition: 0.5s;
+}
+div main ul li:hover::after{
+    width: 100%;
 }
 
-.img {
+.menu {
+    width: 20%;
+    float: left;
+    padding: 15px;
+    border: 5px solid rgb(0, 0, 0);
     text-align: center;
-    overflow: hidden;
-    float: right;
+}
+.main {
+    width: 50%;
+    float: left;
+    padding: 15px;
+    border: 5px solid rgb(255, 187, 0);
+}
+.secondary{
+    width: 30%;
+    float: left;
+    padding: 15px;
+    border: 5px solid rgb(180, 109, 109);
+}
+
+html{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: larger;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}  
+.menu li {
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color :#33b5e5;
+    color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.menu li:hover {
+    background-color: #0099cc;
 }
