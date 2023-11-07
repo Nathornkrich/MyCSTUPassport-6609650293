@@ -44,12 +44,15 @@ section a{
 }
 
 .right{
-    margin-left: 180px;
+    margin-left: 10px;
 }
 
 .imgcenter {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 20%;
   }
+div h2{
+    font-size: 250%;
+    color: crimson;
+}
